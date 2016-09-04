@@ -1,0 +1,72 @@
+/* this is a CSS comment */
+
+body {
+	background-color: seagreen;
+	background-image: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: 110% 50%;
+	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
+}
+
+.main {
+	background-color: white;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px 10px darkgrey;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 0;
+	text-shadow: 10px 10px 10px darkgrey
+	font-family: 'Lobster', cursive;
+	font-size: 60px;
+}
+
+h2 {
+	text-align: center;
+	margin-top: 0;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+
+h3:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+img {
+	width: 500px;	
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+p,
+ul,
+ol {
+	list-style: none;
+	padding-left: 0;
+	line-height: 1,5;
+}
+
+.js h3 + * {
+	display: none;
+}
+
+a{
+	color: darkgrey;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: darkgrey;
+}
